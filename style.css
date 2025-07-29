@@ -1,0 +1,99 @@
+/* style.css for LightMyCandle */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Courier New', monospace;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #00ffcc22, #000000);
+  border-bottom: 1px solid #00ffcc44;
+}
+
+header h1 {
+  color: #00ffcc;
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  color: #cccccc;
+  font-style: italic;
+}
+
+nav {
+  background-color: #111;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #00ffcc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffaa;
+}
+
+.section-title {
+  margin: 40px 20px 10px;
+  font-size: 1.8em;
+  color: #00ffcc;
+  text-align: center;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.tool-card {
+  background: #1a1a1a;
+  border: 1px solid #00ffcc55;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #00ffcc22;
+}
+
+.tool-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #00ffcc88;
+}
+
+.tool-card h3 {
+  color: #00ffaa;
+  margin-top: 0;
+}
+
+.tool-card p {
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+.tool-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00ffcc;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:#0d0d0d;
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
