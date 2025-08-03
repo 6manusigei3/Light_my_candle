@@ -1,4 +1,4 @@
-/* style.css for LightMyCandle */
+
 body {
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ nav {
 }
 
 nav a {
-  color: #00ffcc;
+  color: #000000;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
