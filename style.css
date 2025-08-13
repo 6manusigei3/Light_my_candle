@@ -36,7 +36,7 @@ nav a {
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.4s ease;
 }
 
 nav a:hover {
