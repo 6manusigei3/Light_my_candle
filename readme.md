@@ -1,1 +1,1 @@
-This is a cybersecurity OSINT famework
+This is a cybersecurity OSINT famework .
