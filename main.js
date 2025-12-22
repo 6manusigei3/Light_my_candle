@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', fun () {
+document.addEventListener('DOMContentLoaded', func () {
   const searchBar = document.getElementById('searchBar');
   if (!searchBar) return;
   searchBar.addEventListener('input', function () {
